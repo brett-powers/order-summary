@@ -4,6 +4,7 @@
   --color-very-pale-blue: hsl(225, 100%, 98%);
   --color-desaturated-blue: hsl(224, 23%, 55%);
   --color-dark-blue: hsl(223, 47%, 23%);
+  --color-off-black: rgb(44, 43, 43);
 }
 /*Typography*/
 body {
@@ -34,4 +35,45 @@ html {
 .card__img {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+}
+.card__body {
+  text-align: center;
+  margin: 20px 30px;
+}
+.card__header {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: var(--color-off-black);
+}
+.card__text {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  color: var(--color-desaturated-blue);
+}
+/*Plans*/
+.plan__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.plan__text,
+.plan__link {
+  font-size: 1.5rem;
+}
+.plan__text {
+  font-weight: 900;
+  line-height: 2.3rem;
+  color: var(--color-off-black);
+}
+.plan__price {
+  font-weight: 500;
+  color: var(--color-desaturated-blue);
+}
+.plan__link {
+  color: var(--color-dark-blue);
+  font-weight: 700;
+  transition: color 0.3s;
+}
+.plan__link:hover {
+  color: var(--color-bright-blue);
 }
