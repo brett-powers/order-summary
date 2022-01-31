@@ -4,6 +4,7 @@
   --color-very-pale-blue: hsl(225, 100%, 98%);
   --color-desaturated-blue: hsl(224, 23%, 55%);
   --color-dark-blue: hsl(223, 47%, 23%);
+  --color-off-black: rgb(44, 43, 43);
 }
 /*Typography*/
 body {
@@ -42,6 +43,7 @@ html {
 .card__header {
   font-size: 2.5rem;
   font-weight: 900;
+  color: var(--color-off-black);
 }
 .card__text {
   font-size: 1.6rem;
@@ -61,6 +63,7 @@ html {
 .plan__text {
   font-weight: 900;
   line-height: 2.3rem;
+  color: var(--color-off-black);
 }
 .plan__price {
   font-weight: 500;
