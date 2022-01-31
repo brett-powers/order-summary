@@ -8,7 +8,30 @@
 /*Typography*/
 body {
   font-family: Red Hat Display;
+  background: var(--color-pale-blue);
+  height: 100vh;
 }
 html {
   font-size: 62.5%;
+}
+/*Card*/
+.card__container {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+.card {
+  border: 1px solid #000;
+  border-radius: 15px;
+  background: #fff;
+  height: 500px;
+}
+.card,
+.card__img {
+  width: 300px;
+}
+.card__img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
