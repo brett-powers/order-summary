@@ -36,17 +36,18 @@ html {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
+/*Card Body*/
 .card__body {
   text-align: center;
-  margin: 20px 30px;
+  margin: 20px 30px 16px;
 }
 .card__header {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: 900;
   color: var(--color-off-black);
 }
 .card__text {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   line-height: 2.5rem;
   color: var(--color-desaturated-blue);
 }
@@ -97,7 +98,7 @@ html {
   color: var(--color-desaturated-blue);
   font-size: 1.3rem;
   font-weight: 900;
-  margin-top: 13px;
+  margin-top: 25px;
   text-align: center;
   width: 100%;
 }
