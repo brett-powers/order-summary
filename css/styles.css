@@ -77,3 +77,29 @@ html {
 .plan__link:hover {
   color: var(--color-bright-blue);
 }
+/*Card Footer*/
+.card__footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card__btn {
+  background: var(--color-bright-blue);
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-weight: 900;
+  padding: 1.3rem 0;
+  width: 200px;
+}
+.card__cancel {
+  color: var(--color-desaturated-blue);
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-weight: 900;
+  margin-top: 12px;
+  text-align: center;
+  width: 100%;
+}
